@@ -27,6 +27,7 @@ def listen():
 
 
 def process_command(command):
+    print("this will be replaced soon")
     
 def main():
     speak("startedl.")
