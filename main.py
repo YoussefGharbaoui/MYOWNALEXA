@@ -1,5 +1,7 @@
 import speech_recognition as sr
 import pyttsx3
+from google import genai
+
 
 
 def speak(text):
@@ -27,8 +29,7 @@ def listen():
 
 
 def process_command(command):
-    print("this will be replaced soon")
-    
+    pass
 def main():
     speak("startedl.")
     running = True
